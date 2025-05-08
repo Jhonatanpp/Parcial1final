@@ -6,7 +6,7 @@ package parcial1jhonatanpedraza;
 
 /**
  *
- 
+ * @author estudiante
  */
 public class Parcial1JhonatanPedraza {
 
@@ -14,7 +14,8 @@ public class Parcial1JhonatanPedraza {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Biblioteca biblioteca = new Biblioteca();
+        biblioteca.mostrarMenu();
     }
     
 }
